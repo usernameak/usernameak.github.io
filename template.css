@@ -10,7 +10,7 @@ body {
 	font-family: "Open Sans", sans-serif;
 }
 header {
-	border-bottom: solid 3px #e74c3c;
+	border-bottom: solid 3px #2c3e50;
 	font-weight: 300;
 	height: 50px;
 	position: fixed;
@@ -45,7 +45,7 @@ header {
 	
 }
 #t-menu-button:hover {
-	background: #e74c3c;
+	background: #2c3e50;
 }
 #t-menu-close-button {
 	float: left;
@@ -57,7 +57,7 @@ header {
 	box-sizing: border-box;
 }
 #t-menu-close-button:hover {
-	background: #e74c3c;
+	background: #2c3e50;
 }
 #main-sidebar-outer {
 	position: fixed;
@@ -66,7 +66,7 @@ header {
 	width: 300px;
 	height: 100%;
 	background: #ecf0f1;
-	border-right: solid 3px #e74c3c;
+	border-right: solid 3px #2c3e50;
 	z-index: 2;
 	overflow: auto;
 }
@@ -74,7 +74,7 @@ header {
 	width: 100%;
 	height: 50px;
 	font-weight: 300;
-	border-bottom: solid 3px #e74c3c;
+	border-bottom: solid 3px #2c3e50;
 }
 #t-menu-title {
 	text-align: center;
@@ -107,7 +107,7 @@ footer {
 	font-weight: 300;
 	font-size: 16pt;
 	text-align: center;
-	border-top: solid 3px #e74c3c;
+	border-top: solid 3px #2c3e50;
 	z-index: 1;
 }
 #puzadpn + #main-sidebar-outer + header, #puzadpn + #main-sidebar-outer {
