@@ -1,0 +1,115 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+
+html,body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	background: #ecf0f1;
+	font-family: "Open Sans", sans-serif;
+}
+header {
+	border-bottom: solid 3px #e74c3c;
+	font-weight: 300;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #ecf0f1;
+	z-index: 1;
+}
+#t-header-leftbar {
+	float: left;
+	width: 33.33333333333333333333333333%;
+	height: 50px
+}
+#t-header-logo {
+	float: left;
+	width: 33.33333333333333333333333333%;
+	height: 50px;
+	text-align: center;
+	font-size: 16pt;
+	line-height: 50px;
+}
+.clearfix {
+	clear: both;
+}
+#t-menu-button {
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	padding-top: 5px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	
+}
+#t-menu-button:hover {
+	background: #e74c3c;
+}
+#t-menu-close-button {
+	float: left;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	padding-top: 5px;
+	padding-left: 5px;
+	box-sizing: border-box;
+}
+#t-menu-close-button:hover {
+	background: #e74c3c;
+}
+#main-sidebar-outer {
+	position: fixed;
+	left: -303px;
+	top: 0;
+	width: 300px;
+	height: 100%;
+	background: #ecf0f1;
+	border-right: solid 3px #e74c3c;
+	z-index: 2;
+	overflow: auto;
+}
+#main-sidebar-title {
+	width: 100%;
+	height: 50px;
+	font-weight: 300;
+	border-bottom: solid 3px #e74c3c;
+}
+#t-menu-title {
+	text-align: center;
+	line-height: 50px;
+	font-size: 16pt;
+	float: left;
+	width: 250px;
+	height: 50px;
+}
+#main {
+	padding-bottom: 53px;
+	padding-top: 53px;
+	z-index: 0;
+}
+#main:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+footer {
+	position: fixed;
+	background: #ecf0f1;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-weight: 300;
+	font-size: 16pt;
+	text-align: center;
+	border-top: solid 3px #e74c3c;
+	z-index: 1;
+}
+#puzadpn + #main-sidebar-outer + header, #puzadpn + #main-sidebar-outer {
+	top: 24px !important;
+}
